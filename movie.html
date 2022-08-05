@@ -1,0 +1,50 @@
+<html>
+ <head>
+    
+ <script type="Text/Javascript">
+ function sample()
+ {
+     var name=window.prompt("Enter Movie Name:");
+	 var star=window.prompt("Enter star Name:");
+	 var language=window.prompt("Enter Movie language:");
+	 var rating=window.prompt("Enter Movie rating:");
+	 document.f.mn.value=Movie;
+	 document.f.sn.value=Star;
+	 document.f.ml.value=Language;
+     document.f.mr.value=Rating;
+	 window.alert(name);
+	} 
+	 
+	 
+	 
+  </script>
+  </head>
+  <body>
+  <form name="fn">
+  <table border="5" align="center">
+  <tr>
+  <th  colspan="2">Movie details</th>
+  </tr>
+  <tr>
+  <th>Movie:</th>
+  <td><input type="text" name="mn" id="mn"/></td>
+  </tr>
+  <tr>
+  <th>Star :</th>
+  <td><input type="text" name="sn" id="sn"/></td>
+  </tr>
+  <tr>
+  <th>Language:</th>
+  <td><input type="text" name="ml" id="ml"/></td>
+  </tr>
+  <tr>
+  <th>Rating:</th>
+  <td><input type="text" name="mr" id="mr"/></td>
+  </tr>
+  <tr>
+  <td><input type="button" name="sb" value="getdata" onclick="sample()"/></td>
+  <td><input type="reset" name="rb"/></td>
+  </tr>
+  </table>
+  </body>
+  </html>
